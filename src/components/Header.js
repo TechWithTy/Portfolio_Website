@@ -13,7 +13,7 @@ const Header = () => {
       }}
       className='header'>
       <div className='header-inner'>
-        <div className='logo'>Ollie</div>
+        <div className='logo'>Tyrique</div>
         <nav className='nav'>
           <li>
             <a href='/design'>Design</a>
@@ -28,7 +28,7 @@ const Header = () => {
             <a href='/about'>About</a>
           </li>
           <li>
-            <a href='/why'>Why work with us?</a>
+            <a href='/why'>Why work with me?</a>
           </li>
         </nav>
         <div className='contact'>

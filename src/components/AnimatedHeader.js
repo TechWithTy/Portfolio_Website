@@ -1,12 +1,12 @@
+import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import { motion, AnimateSharedLayout, AnimatePresence } from 'framer-motion';
-import '../sass/main.scss';
-
+import Banner from '../components/Banner';
 // Components
 import Header from '../components/Header';
-import Banner from '../components/Banner';
 import Loader from '../components/Loader';
 import Projects from '../components/Projects';
+import '../sass/main.scss';
+
 function AnimatedHeader() {
   const [loading, setLoading] = useState(true);
 
@@ -36,10 +36,9 @@ function AnimatedHeader() {
                 />
               </div>
             )}
-           
+            <Projects loading={loading} />
           </>
         )}
-        
       </AnimatePresence>
     </AnimateSharedLayout>
   );

@@ -1,5 +1,5 @@
-import React from "react";
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
+import React from 'react';
 
 const Header = () => {
   return (
@@ -7,34 +7,32 @@ const Header = () => {
       initial={{ opacity: 0, y: -180 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
-        ease: "easeInOut",
+        ease: 'easeInOut',
         duration: 1,
         delay: 0.6,
       }}
-      className='header'>
-      <div className='header-inner'>
-        <div className='logo'>Tyrique</div>
-        <nav className='nav'>
+      className="header"
+    >
+      <div className="header-inner">
+        <div className="logo">Tyrique</div>
+        <nav className="nav">
           <li>
-            <a href='/design'>Design</a>
+            <a href="/design">Design</a>
           </li>
           <li>
-            <a href='/strategy'>Strategy</a>
+            <a href="/strategy">Strategy</a>
           </li>
           <li>
-            <a href='/cases'>Cases</a>
+            <a href="/cases">Cases</a>
           </li>
           <li>
-            <a href='/about'>About</a>
-          </li>
-          <li>
-            <a href='/why'>Why work with me?</a>
+            <a href="/about">About</a>
           </li>
         </nav>
-        <div className='contact'>
-          <a href='/contact'>Let's work together</a>
+        <div className="contact">
+          <a href="/contact">Let's work together</a>
         </div>
-        <div className='hamburger-menu'>
+        <div className="hamburger-menu">
           <span></span>
           <span></span>
         </div>

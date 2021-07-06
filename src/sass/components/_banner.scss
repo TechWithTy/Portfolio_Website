@@ -56,7 +56,7 @@
         width: 320px;
       }
     }
-    .scroll {
+    .scrollBtn {
       height: 160px;
       width: 160px;
       border-radius: 100%;
@@ -100,7 +100,6 @@
     display: flex;
   }
   &.final {
-    display: block;
     top: -128px;
     position: relative;
     width: 90%;

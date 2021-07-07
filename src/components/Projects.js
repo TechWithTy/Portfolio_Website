@@ -32,15 +32,19 @@ const Projects = ({ loading }) => {
                 <p className="project-description">{project.description}</p>
               </div>
               <div>
-                {project.icons.map((icon, i) => (
-                  <FontAwesomeIcon
-                    alt={icon.title}
-                    color={icon.color}
-                    icon={icon.icon}
-                    size="6x"
-                    className="mx-2"
-                  />
-                ))}
+                {project.icons.map((icon, i) =>
+                  icon.icon ? (
+                    <FontAwesomeIcon
+                      alt={icon.title}
+                      color={icon.color}
+                      icon={icon.icon}
+                      size="8x"
+                      className="mx-2"
+                    />
+                  ) : (
+                    <img style={{width: icon.width}} src={icon.img} alt={icon.title} />
+                  )
+                )}
               </div>
             </Col>
           </>

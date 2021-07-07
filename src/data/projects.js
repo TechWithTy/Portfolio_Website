@@ -1,4 +1,8 @@
-import { faReact,faSass,faBootstrap } from '@fortawesome/free-brands-svg-icons';
+import {
+  faBootstrap,
+  faReact,
+  faSass,
+} from '@fortawesome/free-brands-svg-icons';
 
 export const projects = [
   {
@@ -7,6 +11,16 @@ export const projects = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex dolorem sequi molestias impedit, placeat tenetur vitae atque earum modi saepe debitis iusto, labore fugit? Atque repellendus sed ipsum consequatur quisquam.',
     img: process.env.PUBLIC_URL + `/images/image-1.webp`,
     icons: [
+      {
+        title: 'Next.js',
+        img: process.env.PUBLIC_URL + `/images/icons/next.png`,
+        width: '100px',
+      },
+      {
+        title: 'Three.js',
+        img: process.env.PUBLIC_URL + `/images/icons/three.png`,
+        width: '100px',
+      },
       {
         title: 'React',
         icon: faReact,

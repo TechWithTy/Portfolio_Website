@@ -1,14 +1,12 @@
-import AnimatedHeader from "../components/AnimatedHeader";
-import Projects from "../components/Projects";
-import React from 'react'
+import React from 'react';
+import AnimatedHeader from '../components/AnimatedHeader';
 
 const Home = () => {
-    return (
-      <div>
-        <AnimatedHeader />
-        
-      </div>
-    );
-}
+  return (
+    <div>
+      <AnimatedHeader />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

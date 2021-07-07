@@ -1,18 +1,12 @@
-import { useEffect, useState } from "react";
-import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
-import "./sass/main.scss";
-
 // Components
-import Home from "./Pages/Home";
-import Projects from "./components/Projects";
+import Home from './Pages/Home';
+import './sass/main.scss';
+
 function App() {
-
-
   return (
     <>
       <Home />
-     
-      </>
+    </>
   );
 }
 
